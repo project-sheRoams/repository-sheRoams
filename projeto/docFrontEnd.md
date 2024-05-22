@@ -11,7 +11,7 @@ O frontend do aplicativo SheRoams será desenvolvido utilizando React e Next.js.
 
 **Descrição:** Página para usuários existentes fazerem login em suas contas.
 
-  - Menssgem de boas-vindas.
+  - Mensagem de boas-vindas.
   - Campos: Email e Password.
   - Botão de login. **Redirecionamento para Home Page**
   - Link para SignUp onde pode criar conta.
