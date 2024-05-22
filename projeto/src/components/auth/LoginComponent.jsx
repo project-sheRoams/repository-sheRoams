@@ -1,12 +1,14 @@
 import Link from "next/link";
+import styles from './Login.module.css'; 
 
 export default function LoginForm() {
   return (
-    <div>
-      <div>
+    <div className={styles.body}>
+      <div className="img-container">
         <img src="" alt="" />
       </div>
-
+      <h1>she <span>roams.</span></h1>
+      
       <form className="form">
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />

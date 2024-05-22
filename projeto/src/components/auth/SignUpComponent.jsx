@@ -33,7 +33,7 @@ export default function SignupForm() {
         <input type="password" placeholder="Confirm Password" />
         <button className="btn">Register</button>
 
-        <Link href={"/Login"}>
+        <Link href={"/login"}>
           Already have an account? <span 
           className="underline">Login</span>
         </Link>
