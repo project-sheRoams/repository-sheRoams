@@ -53,6 +53,7 @@ O frontend do aplicativo SheRoams será desenvolvido utilizando React e Next.js.
 - **Previous Trips**
 - **Settings**  
 - **Version**
+
   - Lista de países visitados e carimbos virtuais adquiridos.
 
 
