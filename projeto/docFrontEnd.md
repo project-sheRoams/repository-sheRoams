@@ -38,6 +38,7 @@ O frontend do aplicativo SheRoams será desenvolvido utilizando React e Next.js.
 - **Settings**  
 - **Version**
   - Lista de países visitados e carimbos virtuais adquiridos.
+  - Links para informações sobre o aplicativo, política de privacidade, termos de serviço.
 
 
 - **Component Footer**
@@ -145,12 +146,10 @@ O frontend do aplicativo SheRoams será desenvolvido utilizando React e Next.js.
 
   ### Componentes Globais
 
-**Cabeçalho (`Header`):**
+**Rodapé (`Footer`):**
 - Navegação principal (Home, Comunidade, Países, Passaporte Virtual, Perfil).
 - Ícone de usuário com dropdown para login/logout.
 
-**Rodapé (`Footer`):**
-- Links para informações sobre o aplicativo, política de privacidade, termos de serviço.
 
 
 
