@@ -9,14 +9,7 @@
  
 }
 
-html,
-body {
-  max-width: 100vw;
-
+.form{
+    display: flex;
+        
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  
-}
-
