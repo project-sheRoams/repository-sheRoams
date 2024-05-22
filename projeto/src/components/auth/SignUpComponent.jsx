@@ -4,13 +4,11 @@ export default function SignupForm() {
   return (
     <div>
       <form>
-        <input type="email" placeholder="Email">Email </input>
-        <input type="password" placeholder="Paswword"> Password</input>
-        <input type="password" placeholder="Paswword">Confirm password </input>
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <input type="password" placeholder="Confirm Password" />
         <button className="btn">Sign Up</button>
-
-        <Link href="">Already have an acconunt?</Link>
-        
+        <Link href="/login">Already have an account?</Link>
       </form>
     </div>
   );
