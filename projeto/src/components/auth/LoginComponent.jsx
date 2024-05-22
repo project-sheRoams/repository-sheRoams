@@ -7,11 +7,11 @@ export default function LoginForm() {
         <img src="" alt="" />
       </div>
 
-      <form>
+      <form className="form">
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />
         <button className="btn">Login</button>
-        <Link className="link" href={"/"}>
+        <Link className="link" href={"/SignUp"}>
           Don't have an account? <span className="underline">Sign Up</span>
         </Link>
       </form>
