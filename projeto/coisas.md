@@ -294,7 +294,7 @@ export default ForumPage;
 
 ```jsx
 import React from 'react';
-
+:
 const PostPage = () => (
   <div>
     <PostHeader />
