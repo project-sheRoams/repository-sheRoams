@@ -50,16 +50,18 @@ O frontend do aplicativo SheRoams será desenvolvido utilizando React e Next.js.
 **Descrição:** Página onde o usuário pode 
 
 **Componentes:**
-- **Informações do Perfil**:
-- **Previous Trips**
-- **Settings**  
-- **Version**
+- **Informações do Perfil**: foto de perfil do usuário, e texto: "Who roams the world? Gilrs! 
+-**SearchBar**: vai procurar 
+- **Categories**: Very safe, Forest, Religious, LGBT friendly, Van life, Beach, Close to police station
+- **Suggested destinations**: 
+- **Trending topics**
+-**Navbar**
 
   - Lista de países visitados e carimbos virtuais adquiridos.
 
 
 - **Component Footer**
-  - Home, Community, Passport, Global.
+  - Navbar: Home, Community, Passport, Global.
 
 
 #### 5. Página da Comunidade (`Community`)
