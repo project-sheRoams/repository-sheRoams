@@ -1,15 +1,5 @@
-// import styles from './login.module.css'; 
-
-// const LoginPage = () => {
-//   return <LoginForm />;
-// };
-
-// export default LoginPage;
-
-
-
-import LoginForm from "../components/auth/LoginComponent";
-import styles from './login.module.css';
+import LoginForm from "../components/auth/loginComponent";
+import styles from "./login.module.css";
 
 const LoginPage = () => {
   return (

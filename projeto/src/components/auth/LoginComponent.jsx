@@ -1,28 +1,5 @@
-// import Link from "next/link";
-// import styles from './Login.module.css';
-
-// export default function LoginForm() {
-//   return (
-//     <div className={styles.body}>
-//       <div className="img-container">
-//         <img src="" alt="" />
-//       </div>
-//       <h1>she <span>roams.</span></h1>
-
-//       <form className="form">
-//         <input type="email" placeholder="Email" />
-//         <input type="password" placeholder="Password" />
-//         <button className="btn">Login</button>
-//         <Link className="link" href={"/SignUp"}>
-//           Don't have an account? <span className="underline">Sign Up</span>
-//         </Link>
-//       </form>
-//     </div>
-//   );
-// }
-
 import Link from "next/link";
-import styles from "./Login.module.css";
+import styles from "./login.module.css";
 import { useState } from "react";
 
 export default function LoginForm() {
@@ -45,7 +22,6 @@ export default function LoginForm() {
     const data = await res.json();
 
     if (data.success) {
-      // Redirect to dashboard or another page
       console.log("Login successful");
     } else {
       setError(data.message);
@@ -80,7 +56,7 @@ export default function LoginForm() {
           Login
         </button>
         {error && <p className={styles.error}>{error}</p>}
-        <Link className={styles.link} href="/SignUp">
+        <Link className={styles.link} href="/signup">
           Don't have an account?{" "}
           <span className={styles.underline}>Sign Up</span>
         </Link>
