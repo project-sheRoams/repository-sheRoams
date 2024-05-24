@@ -1,0 +1,131 @@
+/* src/Login.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+
+/* Estilos para a imagem de fundo */
+.loginPage {
+  background-image: url('/background-login.png');
+  background-size: cover;
+  background-position: center;
+  width: 430px;
+  height: 932px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* Estilos para o logo */
+.logoImage {
+  margin: 40px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.text {
+  color: #3C1E42;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 27px;
+}
+
+/* Estilos pop-up de SignUp e Login */
+.loginCard, .signupCard {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  border-radius: 24px 24px 0 0;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: bottom center;
+  margin-top: 20px;
+  width: 430px;
+  height: 50vh;
+  box-sizing: border-box;
+}
+
+/* Estilos para exibir o cartão de login e signup */
+.showLoginCard .loginCard,
+.showSignupCard .signupCard {
+  transform: translateY(-100%);
+}
+
+/* Estilos para os botões */
+.loginButton, .registerButton, .loginSubmitButton, .signupSubmitButton {
+  width: 325px;
+  height: 56px;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 16px;
+  color: #3C1E42;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.loginButton {
+  background-color: #FFF0F0;
+}
+
+.registerButton {
+  background-color: #FFB235;
+}
+
+.loginSubmitButton, .signupSubmitButton {
+  background-color: #FFB235;
+  margin-top: 20px;
+}
+
+/* Estilos para os campos de entrada */
+.formInput {
+  width: 335px;
+  height: 56px;
+  margin-bottom: 24px;
+  padding: 16px;
+  background-color: #F7F7F9;
+  border: 1px solid #F7F7F9;
+  border-radius: 14px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+/* Estilos para o link de alternância */
+.loginToggle {
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #3C1E42;
+  margin-top: 17px;
+}
+
+.toggleLink {
+  color: #A354B1;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Estilos para o título do formulário */
+.formTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}

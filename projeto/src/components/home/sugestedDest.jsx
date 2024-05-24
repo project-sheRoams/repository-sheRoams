@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css"; // Importa o CSS base do Swiper
 
 const SuggestedDestinations = () => {
   const [destinations, setDestinations] = useState([]);
@@ -15,14 +17,18 @@ const SuggestedDestinations = () => {
   return (
     <div className="suggested-destinations">
       <h2>Suggested Destinations</h2>
-      <div>
-        <img src="hotel.jpg" alt="hotel" />
-        <ul>
-          {destinations.map((destination, index) => (
-            <li key={index}>{destination.name}</li>
-          ))}
-        </ul>
-      </div>
+      <Swiper
+        spaceBetween={50}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+      >
+        {destinations.map((destination, index) => (
+          <SwiperSlide key={index}>
+            <img src={hotel.png.image} alt={destination.name} />
+            <div>{destination.name}</div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
 };
