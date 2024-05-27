@@ -12,27 +12,11 @@ function LoginForm({ onLogin }) {
     e.preventDefault();
     setError("");
 
-    // Aqui você faria a requisição para o backend de login
-    // const res = await fetch("/api/login", { method: "POST", ... });
-
-    // Aqui você processaria a resposta do backend e lidaria com os erros
-
-    // Exemplo de como lidar com erros
-    // if (!res.ok) {
-    //   const data = await res.json();
-    //   setError(data.message);
-    //   return;
-    // }
-
-    // Se o login for bem-sucedido, você pode redirecionar o usuário
-    // ou fazer qualquer outra ação necessária
-
     console.log("Login successful");
   };
 
   const handleSignupClick = () => {
-    // Aqui você pode adicionar a lógica para lidar com o clique em "Sign up"
-    setShowSignup(true); // Define showSignup como true para exibir o componente de signup
+    setShowSignup(true); 
   };
 
   return (

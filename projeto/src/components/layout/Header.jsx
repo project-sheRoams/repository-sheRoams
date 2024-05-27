@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "../../styles/Header.module.css";
 
-const HeaderCard = ({ title }) => {
+const Header = ({ title }) => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
@@ -15,4 +15,4 @@ const HeaderCard = ({ title }) => {
   );
 };
 
-export default HeaderCard;
+export default Header;
