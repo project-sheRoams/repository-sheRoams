@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 import styles from '../../styles/Login.module.css';
 import SignUp from "./SignupForm"
+import { useRouter } from "next/router"
 
 function LoginForm({ onLogin }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [showSignup, setShowSignup] = useState(false); 
+  const router = useRouter()
 
   const handleLogin = async (e) => {
     e.preventDefault();
     setError("");
-
     // Aqui você faria a requisição para o backend de login
     // const res = await fetch("/api/login", { method: "POST", ... });
 
@@ -27,7 +28,27 @@ function LoginForm({ onLogin }) {
     // Se o login for bem-sucedido, você pode redirecionar o usuário
     // ou fazer qualquer outra ação necessária
 
-    console.log("Login successful");
+    try {
+      const res = await fetch("/api/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, password}),
+      })
+
+      const data = await res.json();
+
+      if (res.ok) {
+        console.log("Login successful")
+        router.push("/home")
+      } else {
+        setError(data.message || "An error occurred. PLease try again.")
+      }
+    } catch (error) {
+      console.error("Error signing up:", error);
+      setError("An error occurred. Please try again.");
+    }
   };
 
   const handleSignupClick = () => {

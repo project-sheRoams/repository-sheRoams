@@ -22,10 +22,6 @@ export default function NavBar() {
         <PassportIcon color={"white"} />
       </Link>
 
-      <Link href="/countries" className={styles.button}>
-        <Countries color={"#3C1E42"} />
-      </Link>
-
       <Link href="/profile" className={styles.button}>
         <ProfileIcon color={"#3C1E42"} />
       </Link>
