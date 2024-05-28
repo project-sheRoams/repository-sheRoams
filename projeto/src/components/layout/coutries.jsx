@@ -7,12 +7,12 @@
 //   );
 // }
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export function CountryCard({ country }) {
   return (
     <div className="country-card">
-      <Link href={`/country/${country.title}`}>
+      <Link href={`/countries/${country.title}`}>
         <img src={`/images/${country.imageName}`} alt={country.title} />
         <span>{country.title}</span>
       </Link>
