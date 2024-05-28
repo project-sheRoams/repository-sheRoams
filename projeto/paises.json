@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Germany",
+    "imageName": "germany.jpg",
+    "continent": "Europe",
+    "about": "Germany is a country in Central Europe known for its rich history, cultural heritage, and economic strength. It is the most populous member state of the European Union and has a significant global influence. Germany offers a high standard of living, excellent healthcare, and education systems. The country is famous for its contributions to art, philosophy, music, and science. Major cities like Berlin, Munich, and Hamburg are renowned for their vibrant cultural scenes and historical landmarks.",
+    "curiosities": [
+      {
+        "topic": "Dress Code",
+        "description": "Women can dress as they please in Germany without any significant restrictions. The country is known for its liberal and open-minded attitude towards personal expression."
+      },
+      {
+        "topic": "Safety at Night",
+        "description": "Germany is generally safe for women to walk around at night, especially in urban areas. However, it's always advisable to take standard precautions."
+      },
+      {
+        "topic": "LGBT Safety",
+        "description": "Germany is considered safe for women from the LGBT community. It has progressive laws and a vibrant LGBT scene, particularly in cities like Berlin and Cologne."
+      },
+      {
+        "topic": "Public Transportation",
+        "description": "Germany has an efficient and extensive public transportation system, including trains, buses, and trams, which are generally safe to use at all times."
+      },
+      {
+        "topic": "Healthcare System",
+        "description": "Germany offers high-quality healthcare services that are accessible to both residents and visitors. The country is known for its excellent medical facilities."
+      }
+    ],
+    "must_visit_places": [
+      "Brandenburg Gate",
+      "Neuschwanstein Castle",
+      "Cologne Cathedral",
+      "Black Forest",
+      "Museum Island"
+    ],
+    "tags": [
+      "rich history",
+      "cultural heritage",
+      "high standard of living",
+      "vibrant cultural scenes",
+      "public transportation"
+    ]
+  },
+
+  {
+    "title": "Brazil",
+    "imageName": "brasil.jpg",
+    "continent": "South America",
+    "about": "Brazil is the largest country in South America, known for its vibrant culture, diverse landscapes, and Amazon rainforest. The country boasts beautiful beaches, bustling cities like Rio de Janeiro and São Paulo, and iconic landmarks like the Christ the Redeemer statue. Brazil has a rich cultural heritage, with influences from indigenous, African, and European traditions.",
+    "curiosities": [
+      {
+        "topic": "Dress Code",
+        "description": "Brazil is known for its relaxed dress code, especially in coastal areas. Lightweight, casual clothing is suitable for most occasions."
+      },
+      {
+        "topic": "Safety at Night",
+        "description": "In urban areas, it's advisable to take precautions at night, such as avoiding poorly lit areas and taking licensed taxis."
+      },
+      {
+        "topic": "LGBT Safety",
+        "description": "Brazil has made progress in LGBT rights, especially in larger cities like São Paulo and Rio de Janeiro. However, caution is still advised in some areas."
+      },
+      {
+        "topic": "Public Transportation",
+        "description": "Brazil has a varied public transportation system, including buses, metros, and trains, which are generally safe during the day."
+      },
+      {
+        "topic": "Healthcare System",
+        "description": "Brazil offers both public and private healthcare services, with major cities having hospitals and clinics offering good medical care."
+      }
+    ],
+    "must_visit_places": [
+      "Christ the Redeemer, Rio de Janeiro",
+      "Iguazu Falls",
+      "Copacabana Beach, Rio de Janeiro",
+      "Amazon Rainforest",
+      "Pelourinho, Salvador"
+    ],
+    "tags": [
+      "vibrant culture",
+      "diverse landscapes",
+      "Amazon rainforest",
+      "urban attractions",
+      "rich cultural heritage"
+    ]
+  },
+  {
+    "title": "Portugal",
+    "imageName": "portugal.jpg",
+    "continent": "Europe",
+    "about": "Portugal is a country located on the Iberian Peninsula in Southern Europe known for its rich history, stunning coastline, and vibrant culture. From the historic neighborhoods of Lisbon to the vineyard-covered hills of the Douro Valley, Portugal offers travelers a diverse range of experiences. The country is also celebrated for its delicious cuisine, world-renowned wines, and warm hospitality.",
+    "curiosities": [
+      {
+        "topic": "Dress Code",
+        "description": "Portugal has a casual dress code, with comfortable and weather-appropriate clothing being the norm. In urban areas like Lisbon and Porto, smart casual attire is common, while beachwear is suitable for coastal destinations."
+      },
+      {
+        "topic": "Safety at Night",
+        "description": "Portugal is generally safe at night, with low crime rates and well-lit streets in urban areas. However, travelers should take common-sense precautions, especially in tourist areas and nightlife districts."
+      },
+      {
+        "topic": "LGBT Safety",
+        "description": "Portugal is known for its progressive attitudes towards the LGBT community, with strong legal protections and a welcoming atmosphere. Cities like Lisbon and Porto have vibrant LGBT scenes and inclusive communities."
+      },
+      {
+        "topic": "Public Transportation",
+        "description": "Portugal has an extensive public transportation network, including trains, buses, trams, and metros. The country's train system connects major cities and regions, while buses and trams are convenient for local travel."
+      },
+      {
+        "topic": "Healthcare System",
+        "description": "Portugal has a universal healthcare system that provides medical services to residents and visitors alike. The country is known for its modern hospitals, well-trained medical professionals, and affordable healthcare costs."
+      }
+    ],
+    "must_visit_places": [
+      "Lisbon",
+      "Porto",
+      "Algarve Coast",
+      "Sintra",
+      "Douro Valley"
+    ],
+    "tags": [
+      "rich history",
+      "stunning coastline",
+      "vibrant culture",
+      "delicious cuisine",
+      "world-renowned wines"
+    ]
+  },
+  {
+    "title": "Morocco",
+    "imageName": "marrocos.jpg",
+    "continent": "África",
+    "about": "Morocco is a North African country known for its vibrant culture, stunning architecture, and diverse landscapes. From the bustling medinas of Marrakech and Fez to the serene beaches of Essaouira and Agadir, Morocco offers travelers a sensory feast. The country is also celebrated for its delicious cuisine, ancient traditions, and warm hospitality.",
+    "curiosities": [
+      {
+        "topic": "Dress Code",
+        "description": "Morocco has a conservative dress code, especially in rural areas and religious sites. Travelers are advised to dress modestly, covering shoulders and knees, to show respect for local customs and traditions."
+      },
+      {
+        "topic": "Safety at Night",
+        "description": "Morocco is generally safe at night, with a strong police presence in tourist areas. However, travelers should exercise caution, especially in crowded places and markets where pickpocketing can occur."
+      },
+      {
+        "topic": "LGBT Safety",
+        "description": "Attitudes towards the LGBT community in Morocco are conservative, and same-sex relationships are not widely accepted. LGBT travelers should exercise discretion and avoid public displays of affection."
+      },
+      {
+        "topic": "Public Transportation",
+        "description": "Morocco has a well-developed transportation network, including trains, buses, and taxis, making it easy to travel between cities and explore the countryside. Grand taxis and shared taxis are common for longer journeys."
+      },
+      {
+        "topic": "Healthcare System",
+        "description": "Morocco has both public and private healthcare facilities, with major cities having modern hospitals and clinics. However, medical facilities in rural areas may be limited, so travelers should have comprehensive travel insurance."
+      }
+    ],
+    "must_visit_places": [
+      "Marrakech",
+      "Fes",
+      "Chefchaouen",
+      "Sahara Desert",
+      "Essaouira"
+    ],
+    "tags": [
+      "vibrant culture",
+      "stunning architecture",
+      "diverse landscapes",
+      "delicious cuisine",
+      "ancient traditions"
+    ]
+  }
+]
