@@ -31,7 +31,7 @@ export default function CountryDetail({ country }) {
 }
 
 export async function getStaticPaths() {
-  const response = await fetch('https://caminho-para-seu-arquivo-json.json');
+  const response = await fetch('paises.json');
   const countries = await response.json();
 
   const paths = countries.map(country => ({
@@ -45,7 +45,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const response = await fetch('https://caminho-para-seu-arquivo-json.json');
+  const response = await fetch('paises.json');
   const countries = await response.json();
   const country = countries.find(country => country.title === params.title);
 

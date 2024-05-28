@@ -1,14 +1,12 @@
 import { CountryCard } from "@/components/layout/coutries";
 import paises from "../../paises.json";
 
-console.log(paises);
-
 export default () => {
   return (
     <div
       style={{
         width: "50px",
-        heigth: "50px",
+        heigth: "150px",
         display: "flex",
         flexDirection: "column",
       }}
