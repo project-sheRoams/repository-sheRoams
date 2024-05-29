@@ -22,34 +22,3 @@
 }
 
 
-.country-card {
-  padding: 16px;
-  text-align: center;
-  margin: 8px;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.country-card:hover {
-  transform: scale(1.05);
-}
-
-.country-list {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 16px;
-}
-
-.country-card img {
-  width: 100px;
-  height: auto;
-  border-radius: 8px;
-}
-
-.country-card span {
-  display: block;
-  margin-top: 8px;
-  font-size: 16px;
-  font-weight: bold;
-}

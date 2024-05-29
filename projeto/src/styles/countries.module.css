@@ -1,0 +1,40 @@
+.container{
+  width: 100%;
+}
+
+.countryCard {
+    padding: 16px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  
+  .countryCard:hover {
+    transform: scale(1.05);
+  }
+
+  .country-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 16px;
+  }
+  
+  .countryCard img {
+    width: 165px;
+    height: 150px;
+    border-radius: 8px;
+  }
+  
+  .countryCard span {
+    display: block;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
+  .link{
+    text-decoration: none;
+  }

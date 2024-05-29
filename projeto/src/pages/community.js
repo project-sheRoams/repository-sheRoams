@@ -1,19 +1,16 @@
-import { Header } from "@/components/layout/Header";
-import { NavBar } from "@/components/layout/NavbarComponent";
-
+import CategorySelector from "@/components/home/categories";
+import ListPosts from "@/components/posts";
 
 const LoginPage = () => {
 
   return (
-    <>
       <div>
-        <Header title={"Home"} />;
+        <h1>Community</h1>
+        <CategorySelector />
       </div>
-      <div>
-        <NavBar />
-      </div>
-    </>
+    
   );
 };
 
 export default LoginPage;
+ 

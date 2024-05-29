@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "title": "Aventura na Suécia",
+      "country": "Suécia",
+      "content": "A Suécia foi incrível! O sistema de saúde é ótimo e o transporte público é eficiente. Me senti muito segura andando pelas ruas de Estocolmo à noite."
+    },
+    {
+      "id": 2,
+      "title": "Explorando o Japão",
+      "country": "Japão",
+      "content": "O Japão tem um transporte público impecável e a segurança é de alto nível. No entanto, o acesso a serviços de saúde pode ser um pouco difícil devido à barreira do idioma."
+    },
+    {
+      "id": 3,
+      "title": "Beleza e Segurança na Nova Zelândia",
+      "country": "Nova Zelândia",
+      "content": "Nova Zelândia foi uma experiência maravilhosa. O transporte público é acessível e seguro. A segurança em geral é muito boa, e os serviços de saúde são de alta qualidade."
+    },
+    {
+      "id": 4,
+      "title": "Tranquilidade na Suíça",
+      "country": "Suíça",
+      "content": "Suíça é extremamente segura e o sistema de transporte público é excelente. A qualidade dos serviços de saúde é excepcional, embora seja um pouco caro."
+    },
+    {
+      "id": 5,
+      "title": "Cultura e Segurança na Coreia do Sul",
+      "country": "Coreia do Sul",
+      "content": "A Coreia do Sul tem um transporte público moderno e eficiente. A segurança é alta, especialmente em Seul. O sistema de saúde é bom, mas prepare-se para custos adicionais."
+    },
+    {
+      "id": 6,
+      "title": "Aventura no Canadá",
+      "country": "Canadá",
+      "content": "No Canadá, me senti segura em todos os lugares que visitei. O transporte público em cidades como Toronto é ótimo e o sistema de saúde é acessível e eficiente."
+    },
+    {
+      "id": 7,
+      "title": "Descobrindo a Austrália",
+      "country": "Austrália",
+      "content": "Austrália foi incrível. Me senti muito segura e o transporte público é muito bom. O sistema de saúde também é eficiente, especialmente para emergências."
+    },
+    {
+      "id": 8,
+      "title": "História e Segurança na Alemanha",
+      "country": "Alemanha",
+      "content": "Alemanha oferece um transporte público excelente e a segurança é de alto nível. O sistema de saúde é muito bom, especialmente para quem precisa de atendimento imediato."
+    },
+    {
+      "id": 9,
+      "title": "Vibrante Cingapura",
+      "country": "Cingapura",
+      "content": "Cingapura é extremamente segura e o transporte público é um dos melhores que já vi. O sistema de saúde é eficiente, embora um pouco caro para turistas."
+    },
+    {
+      "id": 10,
+      "title": "Magia na Noruega",
+      "country": "Noruega",
+      "content": "Noruega é um país maravilhoso e seguro. O transporte público é eficiente e os serviços de saúde são excelentes, embora um pouco caros."
+    }
+  ]
+  

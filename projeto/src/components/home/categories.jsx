@@ -13,8 +13,8 @@ const CategorySelector = ({ onSelectCategory }) => {
   ];
 
   return (
-    <div className={styles.categorySelector}>
-      <h3>Choose category:</h3>
+    <div className={styles.container}>
+      <h2>Choose category</h2>
       <div className={styles.categoryButtons}>
         {categories.map((category) => (
           <button 

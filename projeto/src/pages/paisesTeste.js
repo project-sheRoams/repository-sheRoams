@@ -3,13 +3,7 @@ import paises from "../../paises.json";
 
 export default () => {
   return (
-    <div
-      style={{
-        width: "50px",
-        heigth: "150px",
-        display: "flex",
-        flexDirection: "column",
-      }}
+    <div className="coutries-card"
     >
       {paises.map((p) => (
         <CountryCard country={p} />
