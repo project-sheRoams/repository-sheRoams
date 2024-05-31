@@ -1,16 +1,15 @@
 import CategorySelector from "@/components/home/categories";
-import ListPosts from "@/components/posts";
+import ListPosts from '../components/home/tweet'
 
-const LoginPage = () => {
 
+const Community = () => {
   return (
-      <div>
-        <h1>Community</h1>
-        <CategorySelector />
-      </div>
-    
+    <div>
+      <h1>Community</h1>
+      <CategorySelector />
+      <ListPosts />
+    </div>
   );
 };
 
-export default LoginPage;
- 
+export default Community;
