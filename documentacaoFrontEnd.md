@@ -59,27 +59,15 @@ O frontend do aplicativo SheRoams será desenvolvido utilizando React e Next.js.
 
 **Componentes:**
 - **Lista de Fóruns**
-  - Títulos dos fóruns, descrições breves.
+  - Títulos dos posts, descrições breves.
   - Links para páginas específicas de fóruns.
 - **Avaliações Recentes**
   - Avaliações de destinos, acomodações, restaurantes.
 - **Alertas Recentes**
   - Alertas de segurança emitidos por usuários.
 
-#### 6. Página de Fórum (`Forum`)
 
-**Descrição:** Página específica para cada fórum de discussão.
-
-**Componentes:**
-- **Título e Descrição do Fórum**
-- **Lista de Posts**
-  - Títulos, autores, datas de publicação.
-  - Links para páginas específicas de posts.
-- **Formulário de Novo Post**
-  - Campos: Título, Conteúdo.
-  - Botão de envio.
-
-#### 7. Página de Post (`Post`)
+#### 6. Página de Post (`Post`)
 
 **Descrição:** Página específica para cada post em um fórum.
 
@@ -137,12 +125,9 @@ O frontend do aplicativo SheRoams será desenvolvido utilizando React e Next.js.
 
 ### Componentes Globais
 
-**Cabeçalho (`Header`):**
+**Cabeçalho (`Navbar`):**
 - Navegação principal (Home, Comunidade, Países, Passaporte Virtual, Perfil).
 - Ícone de usuário com dropdown para login/logout.
-
-**Rodapé (`Footer`):**
-- Links para informações sobre o aplicativo, política de privacidade, termos de serviço.
 
 ### Conclusão
 
