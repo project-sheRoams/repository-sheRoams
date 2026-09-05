@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import Buttons from "../components/ButtonsFP";
-import LoginForm from "../components/LoginForm";
-import SignUpForm from "../components/SignUpForm";
+import React, { useState } from 'react';
+import Buttons from '../components/ButtonsFP';
+import LoginForm from '../components/LoginForm';
+import SignUpForm from '../components/SignUpForm';
 
 function FirstPage() {
   const [showLogin, setShowLogin] = useState(false);

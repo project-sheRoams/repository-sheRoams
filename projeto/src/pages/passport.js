@@ -1,6 +1,6 @@
-import Passport from "@/components/Passport";
-import NavBar from "@/components/NavBar";
-import styles from "@/pages/passport.module.css";
+import Passport from '@/components/Passport';
+import NavBar from '@/components/NavBar';
+import styles from '@/pages/passport.module.css'
 
 export default () => {
   return (
