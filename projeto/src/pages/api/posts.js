@@ -1,4 +1,6 @@
-import { MongoClient } from 'mongodb'
+import { MongoClient } from "mongodb";
+
+import { connectDB } from "../../lib/mongodb"; // ajuste o caminho conforme a estrutura real de pastas
 
 const getAllPosts = async (db) => {
   const collection = db.collection("posts");
@@ -18,5 +20,3 @@ export default async function handler(req, res) {
     }
   }
 }
-
-

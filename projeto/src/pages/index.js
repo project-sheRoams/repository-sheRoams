@@ -1,11 +1,32 @@
-import styles from "@/styles/Home.module.css";
+import React, { useState } from "react";
+import Buttons from "../components/ButtonsFP";
+import LoginForm from "../components/LoginForm";
+import SignUpForm from "../components/SignUpForm";
 
-export default function Home() {
+function FirstPage() {
+  const [showLogin, setShowLogin] = useState(false);
+  const [showSignup, setShowSignup] = useState(false);
+
+  const handleLoginClick = () => {
+    setShowLogin(true);
+    setShowSignup(false);
+  };
+
+  const handleSignupClick = () => {
+    setShowSignup(true);
+    setShowLogin(false);
+  };
+
   return (
-
     <div>
-      <h1>she <span>roams.</span>
-      </h1>
-
+      <Buttons
+        onLoginClick={handleLoginClick}
+        onSignupClick={handleSignupClick}
+      />
+      {showLogin && <LoginForm />}
+      {showSignup && <SignUpForm />}
     </div>
-  )}
+  );
+}
+
+export default FirstPage;

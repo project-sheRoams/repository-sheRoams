@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.superDiv {
+  font-family: "Inter", sans-serif;
+  
+}
+.mainDiv {
+  background-color: #fff0f0;
+  width: 430px;
+  height: 403px;
+
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilePic {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+}
+
+.profileName {
+  font-weight: 600;
+  margin-top: 16px;
+  font-size: 2.4rem;
+  color: #3c1e42;
+}
+
+.profileEmail {
+  color: #7D848D;
+  font-size: 1.4rem;
+  margin-top: 4px;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  width: 330px;
+  height: 78px;
+  margin-top: 46px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.profileInfoData {
+  flex-direction: column;
+}
+
+.rewardPoints,
+.travelTrips,
+.bucketList {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #3c1e42;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 46px;
+  width: 100%;
+  padding: 5px;
+}
+
+.randomNumbers {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: #c4c4c4;
+  font-size: 1.6rem;
+}
+
+.verticalLine {
+  margin: 3px;
+  height: 78px;
+}
+
+.profileOptions {
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #f7f7f9;
+  border-radius: 16px;
+}
+
+.bookmarkedDiv,
+.previousTripsDiv,
+.settingsDiv {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  width: 320px;
+  height: 63px;
+  align-items: center;
+  padding: 10px;
+  padding-right:15px;
+  margin-right: 50px;
+}
+
+.bookmarkedIcon {
+  padding-left: 20px;
+  margin-right: 14px;
+  width: 5%;
+}
+
+.rightArrow {
+  display: flex;
+  justify-self: right;
+  padding-right: 30px;
+  width: 24px;
+}
+
+.tripsDiv,
+.settingsTextDiv {
+  display: flex;
+  font-size: 16px;
+  height: 63px;
+  align-items: center;
+  padding: 10px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+.bookmarkedText{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 0.8rem;
+}
+
+.bookmarkedLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.developed {
+  font-size: 1.4rem;
+  margin: 3rem;
+  color: #3c1e42;
+  text-align: center;
+  margin-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.developed span {
+  font-weight: 600;
+}
