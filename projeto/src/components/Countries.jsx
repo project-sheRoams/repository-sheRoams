@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '@/styles/Countries.module.css';
+import styles from '@/styles/countries.module.css';
 
 export default function CountryCard({ country }) {
   return (

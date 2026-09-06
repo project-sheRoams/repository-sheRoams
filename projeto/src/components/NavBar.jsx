@@ -1,9 +1,9 @@
-import styles from '../styles/NavBar.module.css';
+import styles from '../styles/Navbar.module.css';
 import Link from 'next/link';
 import { useState } from 'react';
 import { Country } from '@/../public/icons/Country';
 import { PassportIcon } from '@/../public/icons/PassportIcon';
-import { CommunityIcon } from '@/../public/icons/CommunityIcon';
+import { CommunityIcon } from '@/../public/icons/communityIcon';
 import { ProfileIcon } from '@/../public/icons/ProfileIcon';
 import { Favorite } from '@/../public/icons/FavoriteIcon';
 
